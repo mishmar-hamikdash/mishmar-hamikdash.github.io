@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>תמכו במשמר — משמר המקדש</title>
+<meta name="description" content="תרומתכם למשמר המקדש מממנת שיעורי הכנה, ליווי מדריכים והנגשת המשמרות והעלייה למשפחות נוספות.">
+<link rel="canonical" href="https://mishmar-hamikdash.github.io/trumot.html">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="trumot">
+<a href="#main" class="skip-link">דלג לתוכן</a>
+
+<header class="site">
+  <div class="wrap nav-wrap">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" width="22" height="26" viewBox="0 0 22 26" aria-hidden="true">
+        <rect x="7" y="10" width="8" height="14" fill="none" stroke="#EE9A55" stroke-width="1.6"/>
+        <path d="M7 10 L7 6 L9 6 L9 8 L11 8 L11 6 L13 6 L13 8 L15 8 L15 6 L17 6 L17 10 Z" fill="#EE9A55"/>
+        <circle cx="11" cy="3" r="2" fill="#EE9A55"/>
+      </svg>
+      משמר המקדש
+    </a>
+    <button class="nav-toggle" aria-label="פתיחת תפריט ניווט" aria-expanded="false">☰</button>
+    <nav class="main">
+      <a href="index.html" data-page="home">דף הבית</a>
+      <a href="halachot.html" data-page="halachot">כללי המשמר</a>
+      <a href="luach.html" data-page="luach">לוח משמרות</a>
+      <a href="leviim.html" data-page="leviim">לוי הצטרף אלינו</a>
+      <a href="contact.html" data-page="contact">יצירת קשר</a>
+      <a href="trumot.html" data-page="trumot" class="cta">תרומה</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="on-dark hero" style="padding-bottom:2.4rem;">
+    <div class="wrap">
+      <span class="eyebrow">שותפים בקדושה</span>
+      <h1>תמכו במשמר</h1>
+      <p class="lead">תרומתכם מממנת שיעורי הכנה, ליווי מדריכים, ציוד למשמרות והנגשת ההרשמה למשפחות נוספות.</p>
+    </div>
+  </section>
+
+  <section class="on-light">
+    <div class="wrap reveal">
+      <div class="donate-grid">
+        <div class="donate-amt" data-amt="50">₪50<span>שיעור הכנה</span></div>
+        <div class="donate-amt selected" data-amt="180">₪180<span>מימון אשמורה</span></div>
+        <div class="donate-amt" data-amt="360">₪360<span>ליווי ליום</span></div>
+        <div class="donate-amt" data-amt="1000">₪1000<span>מעגל תומכים</span></div>
+      </div>
+      <form class="form-box" id="mm-donate-form" onsubmit="return mmSubmitForm(event,'mm-donate-form','mm-donate-status','תרומה חדשה - משמר המקדש');">
+        <label for="d-name">שם התורם</label>
+        <input id="d-name" type="text" name="שם התורם" placeholder="שם מלא" required>
+        <label for="d-phone">טלפון ליצירת קשר</label>
+        <input id="d-phone" type="tel" name="טלפון" placeholder="050-0000000" required>
+        <input type="hidden" name="סכום נבחר" id="mm-donate-amt-field" value="180">
+        <button type="submit" class="btn btn-ember" style="margin-top:1rem; border:none;">שליחת פרטי תרומה</button>
+        <div id="mm-donate-status" style="margin-top:.7rem; font-size:.85rem;"></div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap footer-wrap">
+    <div>
+      <h4>משמר המקדש</h4>
+      <p style="opacity:.85; max-width:320px;">קהילה המקיימת את מצוות שמירת המקדש, ומלווה עולים להר הבית בטהרה ובדעת, לקראת בניין בית המקדש במהרה בימינו.</p>
+    </div>
+    <div>
+      <h4>ניווט</h4>
+      <a href="halachot.html">כללי המשמר</a>
+      <a href="luach.html">לוח משמרות</a>
+      <a href="leviim.html">לוי הצטרף אלינו</a>
+      <a href="contact.html">יצירת קשר</a>
+      <a href="trumot.html">תרומות</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© משמר המקדש — כל הזכויות שמורות</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
