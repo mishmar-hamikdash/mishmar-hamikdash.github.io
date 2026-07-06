@@ -103,6 +103,16 @@ nav.main a.cta:hover{ background: var(--ember-light); color: var(--night-deep); 
   nav.main a{ text-align:center; }
 }
 
+@media (max-width: 640px){
+  .ashmurot{ grid-template-columns: 1fr; }
+  .card-grid{ grid-template-columns: 1fr; }
+}
+
+.schedule-scroll{ overflow-x:auto; -webkit-overflow-scrolling:touch; }
+@media (max-width: 640px){
+  table.schedule{ min-width: 560px; }
+}
+
 /* ---------- מקטעים ---------- */
 .on-dark{ background: var(--night-deep); color: var(--parchment); padding: 3.4rem 0; }
 .on-light{ background: var(--parchment); padding: 3.4rem 0; }
