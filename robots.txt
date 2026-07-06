@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mishmar-hamikdash.github.io/sitemap.xml
